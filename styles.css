@@ -1,0 +1,107 @@
+/*
+  Name: Xiaochi Yang
+  Date: April 5, 2021
+  Section: CSE 154 AG
+  This is the styles.css, which brings styles to about page and hiking page. It is used to
+  give the sites a consistent look and feel, mainly including the font style and size, the
+  colour of the texts, and the background colour. The main color will be pale yellow, which
+  is for the background. The text will be black with bright red headline. Overall, the style
+  is simple but clear.
+/
+*/
+
+body {
+    background-color: rgb(243, 225, 181);
+    font-family: 'Lexend', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    margin-top: 50px;
+    width: 80%;
+    height: 80%;
+    padding: 10px 10px 10px 10px;
+  }
+  
+  title {
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  h1 {
+    font-family: 'Coda Caption', sans-serif;
+    text-transform: uppercase;
+    font-size: 100px;
+    margin-bottom: 0px;
+  }
+  
+  h1:hover {
+    text-shadow: #551755 20px 15px 20px;
+  }
+
+  a:hover {
+    opacity: 75%;
+  } 
+
+  p {
+    color: black;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  #sec > li {
+    color: rgb(199, 99, 149);
+    font-size: 20px;
+    font-family: 'Dela Gothic One', cursive;
+  }
+
+  #quote > li {
+    color: rgb(12, 64, 99);
+    font-size: 20px;
+    font-family: 'Dela Gothic One', cursive;
+    
+  }
+
+  #show {
+    font-family: 'Dela Gothic One', cursive;
+  }
+
+  strong {
+    color: rgb(171, 12, 185);
+    font-family: 'Dela Gothic One', cursive;
+  }
+
+  li {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 27px;
+  }
+  
+  h3:hover {
+    text-shadow: #0579c7 20px 15px 20px;
+    opacity: 75%;
+  }
+
+  section {
+    margin-bottom: 35px;
+    
+  }
+  
+  footer > p {
+    color: rgb(74, 14, 216);
+  }
+
+  
+  h1, h2, h3, h4 {
+    text-align: left;
+    text-transform: uppercase;
+  }
+  
+  div {
+    visibility: hidden;
+  }
+  
+  .is-visible {
+    visibility: visible;
+  }
